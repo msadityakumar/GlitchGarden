@@ -44,9 +44,15 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
 'Assets/Scripts/AttackersScript.cs'
+'Assets/Scripts/Defenders.cs'
 'Assets/Scripts/FadeOutScript.cs'
+'Assets/Scripts/FoxScript.cs'
+'Assets/Scripts/Health.cs'
 'Assets/Scripts/LevelManager.cs'
+'Assets/Scripts/LizardScript.cs'
 'Assets/Scripts/MusicManager.cs'
+'Assets/Scripts/Projectiles.cs'
+'Assets/Scripts/Stone.cs'
 'Assets/testScript.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
