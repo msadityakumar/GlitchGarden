@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B4A91F59-C649-0A97-6AF1-1073D6B20D05}</ProjectGuid>
+	<ProjectGuid>{5254937B-CF39-AEAB-C4B2-E19E2A547F9C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ButtonScript.cs" />
      <Compile Include="Assets\Scripts\AttackersScript.cs" />
      <Compile Include="Assets\Scripts\Defenders.cs" />
      <Compile Include="Assets\Scripts\FadeOutScript.cs" />
@@ -55,8 +56,9 @@
      <Compile Include="Assets\Scripts\LizardScript.cs" />
      <Compile Include="Assets\Scripts\MusicManager.cs" />
      <Compile Include="Assets\Scripts\Projectiles.cs" />
+     <Compile Include="Assets\Scripts\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
-     <Compile Include="Assets\testScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.7/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
